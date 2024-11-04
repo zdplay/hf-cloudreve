@@ -20,7 +20,7 @@ RUN mkdir -p /aria2/data
 
 RUN chmod 777 /aria2/data
 
-EXPOSE 8080
+EXPOSE 8086
 
 # CMD ["./cloudreve","-c","/app/conf.ini"]
 COPY start.sh /app/start.sh
